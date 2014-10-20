@@ -278,7 +278,7 @@ namespace Docky.Services
 			event Action Changed;
 		}
 
-		[Interface(UPowerName)]
+		[Interface("org.freedesktop.DBus.Properties")]
 		interface IUPower : org.freedesktop.DBus.Properties
 		{
 			event Action Changed;
